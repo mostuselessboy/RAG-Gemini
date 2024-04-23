@@ -1,0 +1,9 @@
+# For YAML related issues contact: github.com/mostuselessboy
+services:
+  server:
+    build:
+      context: .
+    ports:
+      - 8501:8501
+    env_file:
+      - .env
